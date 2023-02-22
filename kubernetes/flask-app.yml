@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: stratcastor/flask-lbg-demo:latest
+        image: eu.gcr.io/lbg-cloud-incubation/piers-flask-lbg-demo:latest
         ports:
         - containerPort: 8080
 ---

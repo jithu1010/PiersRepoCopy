@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: stratcastor/nginx-lbg-demo:latest
+        image: eu.gcr.io/lbg-cloud-incubation/piers-nginx-lbg-demo:latest
         ports:
         - containerPort: 80
 ---
