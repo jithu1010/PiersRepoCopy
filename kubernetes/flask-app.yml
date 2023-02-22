@@ -21,6 +21,7 @@ spec:
       containers:
       - name: flask
         image: eu.gcr.io/lbg-cloud-incubation/piers-flask-lbg-demo:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
