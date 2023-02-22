@@ -8,7 +8,7 @@ spec:
   replicas: 10
   selector:
     matchLabels:
-      container: flask-container
+      app: flask-app
   strategy:
     rollingUpdate:
       maxSurge: 10%
@@ -16,7 +16,7 @@ spec:
   template:
     metadata:
       labels:
-        container: flask-container
+        app: flask-app
     spec:
       containers:
       - name: flask
