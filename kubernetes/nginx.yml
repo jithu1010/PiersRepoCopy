@@ -4,6 +4,7 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
+  namespace: development
 spec:
   replicas: 10
   selector:
@@ -29,6 +30,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: nginx-service
+  namespace: development
 spec:
   type: LoadBalancer
   selector:
