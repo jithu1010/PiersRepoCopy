@@ -32,3 +32,5 @@ trio-websocket
 urllib3
 Werkzeug
 wsproto
+GIT
+GITHUB
